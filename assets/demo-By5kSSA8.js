@@ -40,7 +40,7 @@ import{bg as o,bh as t,j as c,bi as n,bj as s}from"./index-ScVOLe_s.js";import{u
     love_letter_message:C.love_letter_message??G.love_letter_message,
     scratch_card_prize:C.scratch_card_prize??G.scratch_card_prize,
     circle_photo_url:C.circle_photo_url??G.circle_photo_url,
-    youtube_url:C.youtube_url??s
+    youtube_url:C.youtube_url||null
   };
   const basePhotos=a?.photos&&a.photos.length>0?a.photos:fallbackPhotos;
   const defaultPhotos=[{image_url:se.url},...basePhotos.slice(1)];

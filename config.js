@@ -52,9 +52,12 @@ Less than tomorrow. ❤️`,
   audioUrl: "./karwa-chauth-default-romantic.mp3",
   audioTitle: "Our song",
 
-  // 7. YOUTUBE SONG (Optional YouTube URL)
-  // If provided, YouTube audio will be used instead
-  youtube_url: "https://youtu.be/0wlulIyVh0g?si=Xmj_mMdFcoqTwnRC",
+  // 7. INTRO VIDEO
+  // Set to true if you want to skip the intro video and go straight to the surprise
+  skipIntroVideo: false,
+
+  // Optional: YouTube video is disabled
+  youtube_url: null,
 
   // 8. POLAROID MEMORY PHOTOS (Array of image URLs or local paths)
   // Put your couple photos in the 'photos' folder and list them here:

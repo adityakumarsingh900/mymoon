@@ -28,7 +28,7 @@ This is a customized, standalone, offline-ready clone of the romantic single-pag
 
 All customizations can be done in one single file: **`config.js`**!
 
-Open [config.js](file:///Users/adityakumarsingh/Documents/antigravity/noble-bose/downloaded/config.js) in your text editor:
+Open [config.js](file:///Users/adityakumarsingh/Documents/antigravity/noble-bose/config.js) in your text editor:
 
 ```javascript
 window.CUSTOM_GIFT_CONFIG = {
@@ -61,7 +61,7 @@ window.CUSTOM_GIFT_CONFIG = {
 
 ## 📸 Adding Your Own Photos
 
-1. Drop your photos inside the [`photos/`](file:///Users/adityakumarsingh/Documents/antigravity/noble-bose/downloaded/photos/) folder.
+1. Drop your photos inside the [`photos/`](file:///Users/adityakumarsingh/Documents/antigravity/noble-bose/photos/) folder.
 2. In `config.js`, update the image paths (e.g. `"/photos/vacation.jpg"`).
 
 ---

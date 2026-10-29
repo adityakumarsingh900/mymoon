@@ -10,7 +10,7 @@ window.CUSTOM_GIFT_CONFIG = {
 
   // 2. HERO / CIRCULAR PHOTO (Optional - leave null to use default or your own photo path)
   // Example: "photos/wife.jpg" or "/assets/my-photo.jpg"
-  circle_photo_url: "/assets/photos/wife-portrait.jpg",
+  circle_photo_url: "./assets/photos/wife-portrait.jpg",
 
   // 3. MAIN LOVE MESSAGE (Shown towards the bottom)
   message: "You are my today, my tomorrow, and every prayer my heart will ever make. ❤️🌙\nHappy Karwa Chauth, Bubu. You are my forever. ❤️",
@@ -49,7 +49,7 @@ Less than tomorrow. ❤️`,
 
   // 6. BACKGROUND MUSIC
   // Put any MP3 file in the project folder and reference it here, or keep the romantic default
-  audioUrl: "/karwa-chauth-default-romantic.mp3",
+  audioUrl: "./karwa-chauth-default-romantic.mp3",
   audioTitle: "Our song",
 
   // 7. YOUTUBE SONG (Optional YouTube URL)
@@ -60,7 +60,7 @@ Less than tomorrow. ❤️`,
   // Put your couple photos in the 'photos' folder and list them here:
   // e.g., ["photos/memory1.jpg", "photos/memory2.jpg", "photos/memory3.jpg", "photos/memory4.jpg"]
   // If left null, it will use the default romantic silhouettes/portraits.
-  memoryPhotos: ['/assets/photos/memory1.jpg', '/assets/photos/memory2.jpg', '/assets/photos/memory3.jpg', '/assets/photos/memory4.jpg'],
+  memoryPhotos: ['./assets/photos/memory1.jpg', './assets/photos/memory2.jpg', './assets/photos/memory3.jpg', './assets/photos/memory4.jpg'],
 
   // 9. SHOW BUY / PROMOTIONAL BUTTONS (set false to keep it a pure personal gift)
   showBuyButton: false

@@ -60,15 +60,8 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                     self.wfile.write(f.read())
                 return
 
-        # If opening root URL, redirect to /karwa-chauth/demo so TanStack Router matches perfectly
-        if path in ['', '/']:
-            self.send_response(302)
-            self.send_header('Location', '/karwa-chauth/demo')
-            self.end_headers()
-            return
-
-        # If opening /karwa-chauth/demo or /karwa-chauth, serve index.html
-        if path in ['/karwa-chauth/demo', '/karwa-chauth']:
+        # Serve index.html for root, /mymoon, and /karwa-chauth routes
+        if path in ['', '/', '/mymoon', '/karwa-chauth/demo', '/karwa-chauth']:
             self.send_response(200)
             self.send_header('Content-type', 'text/html; charset=utf-8')
             self.end_headers()

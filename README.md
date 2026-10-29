@@ -7,7 +7,7 @@ This is a customized, standalone, offline-ready clone of the romantic single-pag
 ## 🌟 Interactive Features Included
 
 1. **Starry Moonlit Sky & Floating Hearts**: A fixed starry night backdrop with shooting stars, a golden glowing moon, and rising floating hearts.
-2. **Ambient Music Player**: A floating play/pause button playing a romantic soundtrack or custom YouTube song.
+2. **Ambient Music Player**: A floating play/pause button playing a romantic soundtrack.
 3. **Hero Surprise Screen**: Pulsing golden ring with your wife's photo and personalized greeting: *"Hello [Wife's Name] ❤ - [Your Name] made something for you."*
 4. **Interactive Wax-Seal Love Letter Envelope**: An animated 3D envelope with sparkles and floating hearts that smoothly unrolls your personal love letter when tapped.
 5. **Moon Sighting Sieve (Chhalni) Scroll Animation**: Interactive frame-by-frame canvas sequence as you scroll down.

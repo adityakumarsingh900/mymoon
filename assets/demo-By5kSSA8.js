@@ -23,6 +23,9 @@ import{bg as o,bh as t,j as c,bi as n,bj as s}from"./index-ScVOLe_s.js";import{u
 
   const norm=u=>(u&&typeof u==="string"&&u.startsWith("/")&&!u.startsWith("./"))?"."+u:u;
   const rawC=window.CUSTOM_GIFT_CONFIG||{};
+  if(typeof document!=="undefined"){
+    document.title=rawC.page_title||"Happy Karwa Choth Anamika <3";
+  }
   const C={
     ...rawC,
     circle_photo_url:norm(rawC.circle_photo_url),

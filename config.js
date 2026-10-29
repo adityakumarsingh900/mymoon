@@ -4,6 +4,9 @@
 // ========================================================
 
 window.CUSTOM_GIFT_CONFIG = {
+  // Page Title in Browser Tab
+  page_title: "Happy Karwa Choth Anamika <3",
+
   // 1. NAMES
   recipient_name: "Anamika", // <-- Change to your wife's name / nickname (e.g. "Pooja", "Shreya", "Jaan")
   sender_name: "Aditya",     // <-- Change to your name
@@ -68,3 +71,7 @@ Less than tomorrow. ❤️`,
   // 9. SHOW BUY / PROMOTIONAL BUTTONS (set false to keep it a pure personal gift)
   showBuyButton: false
 };
+
+if (typeof document !== "undefined") {
+  document.title = window.CUSTOM_GIFT_CONFIG.page_title || "Happy Karwa Choth Anamika <3";
+}
